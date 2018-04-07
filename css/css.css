@@ -1,0 +1,436 @@
+
+@keyframes BgMove
+{
+    from {background-position: 1920px,0;}
+    to {background-position: 0px,0;}
+}
+@-webkit-keyframes  BgMove
+{
+    from {background-position: 100px,0;}
+    to {background-position: 600px,0;}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#all{
+    width: 1000px;
+    height: 600px;
+    margin: 30px auto auto;
+    position: relative;
+    box-shadow: 0px 0px 10px ;
+}
+/*--------------------------------- 第一页 ---------------------------------------------*/
+#page1{
+    width: 100%;
+    height: 100%;
+}
+#top{
+    background-image: url("../image/logo.png");
+
+    height: 100px;
+    width: 400px;
+    margin: 30px auto auto;
+}
+
+#mid{
+    background-image: url("../image/beginbg.png");
+    margin-top: 120px;
+    height: 80px;
+    text-align: center;
+
+    animation: BgMove 5s;
+    -moz-animation: BgMove 5s;	/* Firefox */
+    -webkit-animation: BgMove 5s;	/* Safari 和 Chrome */
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+#woman{
+    margin-top: -50px;
+}
+#bot{
+    margin-top: 150px;
+    text-align: center;
+
+}
+#choose{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+#title{
+    background-image: url("../image/gameovershow.png");
+    height: 60px;
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    font-family: "微软雅黑";
+    line-height: 50px;
+    font-size: 36px;
+    color: gray;
+
+}
+
+#select{
+    background-color:white;
+    width: 400px;
+    height: 200px;
+    margin:  auto ;
+    margin-top: 40px;
+    border: 5px solid cornflowerblue;
+
+}
+#myGold_p3{
+    border: 1px solid transparent;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    line-height: 50px;
+    font-size: 20px;
+    color: gray;
+
+}
+#daoju1{
+    width: 130px;
+    height: 130px;
+    border: 4px solid gray;
+    border-radius: 67px;
+    margin-top: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    background-image: url("../image/jjz.png");
+
+}
+#daoju1_1{
+    width: 40px;
+    height:40px;
+    background-color: gray;
+    border-radius: 20px;
+
+}
+#daoju2{
+
+    width: 130px;
+    height: 130px;
+    border: 4px solid gray;
+    border-radius: 67px;
+    margin-top: -138px;
+    margin-left: 200px;
+    cursor: pointer;
+    background-image: url("../image/slow.png");
+    background-position: 0,-5px;
+
+}
+
+#daoju2_1{
+    width: 40px;
+    height:40px;
+    background-color: gray;
+    border-radius: 20px;
+
+}
+
+#go{
+    position:absolute;
+    background-image: url("../image/right2.png");
+    height: 95px;
+    width: 85px;
+    left: 660px;
+    top: 300px;
+    cursor:pointer;
+}
+#go:hover{
+    background-image: url("../image/right3.png");
+}
+
+.show{
+    display: block;
+}
+.hide{
+    display:none;
+}
+
+/*--------------------------------- 第二页 ---------------------------------------------*/
+#page2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#can1{
+       position: absolute;
+       left: 0;
+       top: 0;
+   }
+#can2{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#push{
+    position: relative;
+    top: -50px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    cursor: pointer;
+    border: 4px solid gray;
+    border-radius:32px;
+    text-align: center;
+    line-height: 50px;
+    color: gray;
+    font-family: "微软雅黑";
+    font-size: 40px;
+}
+
+#score{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    font-size: 50px;
+    border: 1px solid transparent;
+    margin:auto;
+    margin-top: 10px;
+}
+
+#woman_2{
+    margin-top: 100px;
+    position: relative;
+
+}
+#king{
+    margin-top: 100px;
+    margin-left: -230px;
+    position: relative;
+}
+
+#bulletsUl{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    display: table;
+    list-style-type: none;
+    height: 50px;
+
+}
+#bulletsUl li{
+    display: table-cell;
+
+}
+
+
+/*--------------------------------- 第三页 ---------------------------------------------*/
+#page3{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#page3_bot{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    border: 1px solid transparent;
+    text-align: center;
+    font-size: 48px;
+    font-family:"Arial";
+    color: #3fc9b1;
+}
+#page3_top{
+    width: 620px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    border: 1px solid transparent;
+    text-align: center;
+    font-size: 48px;
+    font-family:"微软雅黑";
+    color:white;
+}
+
+#input_name{
+    border: 3px solid #3fc9b1;
+    width: 250px;
+    padding-left:20px;
+    height: 40px;
+    background-color:#3b4161 ;
+    font-size: 26px;
+    font-family:"微软雅黑";
+    color: white;
+    outline: none;
+}
+
+#page3_go{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 21px;
+    position: absolute;
+    left: 350px;
+    top: 70px;
+    cursor: pointer;
+}
+
+/*--------------------------------- 第四页 ---------------------------------------------*/
+#page4{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+
+}
+
+#topScores{
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 60px;
+    width: 120px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #3fc9b1;
+    float: left;
+}
+
+#bank{
+    clear: both;
+    background-color:white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 2px;
+    width: 350px;
+    height: 500px;
+    border-top: 5px solid #3fc9b1 ;
+}
+
+#resultImg{
+    background-image: url("../image/gameovershow.png");
+    height: 70px;
+    width: 400px;
+    float: right;
+    margin-top: -70px;
+    margin-right: 100px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+#result{
+    float: right;
+    margin-right: 100px;
+    width: 400px;
+}
+
+#result li{
+    width: 400px ;
+    height: 50px ;
+    margin-bottom: 3px;
+    white-space:pre;
+    line-height: 50px;
+    font-family:"微软雅黑";
+    font-size: 22px;
+    list-style: none;
+}
+
+#img01{
+    float: right;
+    background-image: url("../image/main.png");
+    width: 85px;
+    height: 95px;
+    margin-right: 350px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#img02{
+    float: right;
+    background-image: url("../image/jixu.png");
+    width: 140px;
+    height: 160px;
+    margin-right: 120px;
+    margin-top: -120px;
+    cursor: pointer;
+}
+.qianlv{
+    background-color: #9aebea;
+}
+.shenlv{
+    background-color: #48929d;
+    color: plum;
+}
+.huanglv{
+    background-color:#cbf39c ;
+}
+.shuxian{
+ font-weight: lighter;
+    color: gray;
+}
+.red{
+    color: darkred;
+    font-family:"arial";
+    margin-right: 10px;
+    float: right;
+}
+#color{
+    color: #0f6f9e;
+    font-family:"arial";
+     margin-right: 10px;
+    float: right;
+
+}
+#myGlod{
+    width: 60px;
+    position: absolute;
+    left: 640px;
+}
+#s_score{
+    width: 60px;
+    position: absolute;
+    left: 640px;
+}
+#jiangli{
+    width: 60px;
+    position: absolute;
+    left: 640px;
+}
+#allScore{
+    color: yellow;
+    font-family:"arial";
+    margin-right: 10px;
+    float: right;
+}
+
+.t_id{
+    color: blue;
+    width: 50px;
+    text-align: center;
+}
+.t_name{
+    text-align: center;
+    color: gray;
+    width: 200px;
+    font-family: "微软雅黑";
+}
+.t_score{
+    color: brown;
+    width: 50px;
+    text-align: center;
+}
